@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-geethub" class="navigator-link">
+              <span class="suite-name border-passed">geethub</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-geethub" class="navigator-link ">
+                    <span>D:\Geethub\geethub.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-geethub" class="navigator-link ">
+                    <span class="test-stats">7 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-geethub" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-geethub" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-geethub" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-geethub" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-geethub" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-geethub" class="hide-methods passed suite-geethub"> (hide)</a> <!-- hide-methods passed suite-geethub -->
+                      <a href="#" panel-name="suite-geethub" class="show-methods passed suite-geethub"> (show)</a> <!-- show-methods passed suite-geethub -->
+                    </span>
+                    <div class="method-list-content passed suite-geethub">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.geethublogin_test" class="method navigator-link" hash-for-method="GetLaunchUrl">GetLaunchUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.geethublogin_test" class="method navigator-link" hash-for-method="clickonSign">clickonSign</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.repository_test" class="method navigator-link" hash-for-method="clickoncreaterepo">clickoncreaterepo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.setting_test" class="method navigator-link" hash-for-method="clickondeleterepo">clickondeleterepo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.setting_test" class="method navigator-link" hash-for-method="clickondeletetext">clickondeletetext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.repository_test" class="method navigator-link" hash-for-method="clickonissue">clickonissue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.newbtn_test" class="method navigator-link" hash-for-method="clickonnewbtn">clickonnewbtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.newissue_test" class="method navigator-link" hash-for-method="clickonnewissuebtn">clickonnewissuebtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.REIssue_test" class="method navigator-link" hash-for-method="clickonnewissuebtn">clickonnewissuebtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.REIssue_test" class="method navigator-link" hash-for-method="clickonreissuebtn">clickonreissuebtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.setting_test" class="method navigator-link" hash-for-method="clickonsetting">clickonsetting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.newissue_test" class="method navigator-link" hash-for-method="clickonsubmit_btn">clickonsubmit_btn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.REIssue_test" class="method navigator-link" hash-for-method="fillcommentbox">fillcommentbox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.geethubtestbox_test" class="method navigator-link" hash-for-method="filldetails">filldetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.newissue_test" class="method navigator-link" hash-for-method="fillissuebox">fillissuebox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.REIssue_test" class="method navigator-link" hash-for-method="fillissuetitle">fillissuetitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.repository_test" class="method navigator-link" hash-for-method="fillrepository_vrfy">fillrepository_vrfy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-geethub" title="Test.newissue_test" class="method navigator-link" hash-for-method="filltitlebox">filltitlebox</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-geethub -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-geethub" class="panel geethub">
+          <div class="suite-geethub-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.geethublogin_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetLaunchUrl">
+                  </a> <!-- GetLaunchUrl -->
+                  <span class="method-name">GetLaunchUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonSign">
+                  </a> <!-- clickonSign -->
+                  <span class="method-name">clickonSign</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-geethub-class-passed -->
+          <div class="suite-geethub-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.REIssue_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonnewissuebtn">
+                  </a> <!-- clickonnewissuebtn -->
+                  <span class="method-name">clickonnewissuebtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonreissuebtn">
+                  </a> <!-- clickonreissuebtn -->
+                  <span class="method-name">clickonreissuebtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillcommentbox">
+                  </a> <!-- fillcommentbox -->
+                  <span class="method-name">fillcommentbox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillissuetitle">
+                  </a> <!-- fillissuetitle -->
+                  <span class="method-name">fillissuetitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-geethub-class-passed -->
+          <div class="suite-geethub-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.newissue_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonnewissuebtn">
+                  </a> <!-- clickonnewissuebtn -->
+                  <span class="method-name">clickonnewissuebtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonsubmit_btn">
+                  </a> <!-- clickonsubmit_btn -->
+                  <span class="method-name">clickonsubmit_btn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillissuebox">
+                  </a> <!-- fillissuebox -->
+                  <span class="method-name">fillissuebox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="filltitlebox">
+                  </a> <!-- filltitlebox -->
+                  <span class="method-name">filltitlebox</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-geethub-class-passed -->
+          <div class="suite-geethub-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.setting_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickondeleterepo">
+                  </a> <!-- clickondeleterepo -->
+                  <span class="method-name">clickondeleterepo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickondeletetext">
+                  </a> <!-- clickondeletetext -->
+                  <span class="method-name">clickondeletetext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonsetting">
+                  </a> <!-- clickonsetting -->
+                  <span class="method-name">clickonsetting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-geethub-class-passed -->
+          <div class="suite-geethub-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.newbtn_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonnewbtn">
+                  </a> <!-- clickonnewbtn -->
+                  <span class="method-name">clickonnewbtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-geethub-class-passed -->
+          <div class="suite-geethub-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.geethubtestbox_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="filldetails">
+                  </a> <!-- filldetails -->
+                  <span class="method-name">filldetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-geethub-class-passed -->
+          <div class="suite-geethub-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.repository_test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickoncreaterepo">
+                  </a> <!-- clickoncreaterepo -->
+                  <span class="method-name">clickoncreaterepo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickonissue">
+                  </a> <!-- clickonissue -->
+                  <span class="method-name">clickonissue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillrepository_vrfy">
+                  </a> <!-- fillrepository_vrfy -->
+                  <span class="method-name">fillrepository_vrfy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-geethub-class-passed -->
+        </div> <!-- panel geethub -->
+        <div panel-name="test-xml-geethub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Geethub\geethub.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;geethub&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;login&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.geethublogin_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- login --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;textbox&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.geethubtestbox_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- textbox --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;newbtn_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.newbtn_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- newbtn_test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;repository_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.repository_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- repository_test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;newissue_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.newissue_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- newissue_test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;REIssue_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.REIssue_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- REIssue_test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;setting_test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.setting_test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- setting_test --&gt;
+&lt;/suite&gt; &lt;!-- geethub --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-geethub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for geethub</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">login (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">textbox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">newbtn_test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">repository_test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">newissue_test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">REIssue_test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">setting_test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-geethub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for geethub</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-geethub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for geethub</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_geethub');
+function tableData_geethub() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'GetLaunchUrl')
+data.setCell(0, 2, 'Test.geethublogin_test')
+data.setCell(0, 3, 5729);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickoncreaterepo')
+data.setCell(1, 2, 'Test.repository_test')
+data.setCell(1, 3, 5476);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'clickonnewbtn')
+data.setCell(2, 2, 'Test.newbtn_test')
+data.setCell(2, 3, 3027);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'filldetails')
+data.setCell(3, 2, 'Test.geethubtestbox_test')
+data.setCell(3, 3, 2797);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickonsetting')
+data.setCell(4, 2, 'Test.setting_test')
+data.setCell(4, 3, 2053);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'clickonSign')
+data.setCell(5, 2, 'Test.geethublogin_test')
+data.setCell(5, 3, 2023);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickondeletetext')
+data.setCell(6, 2, 'Test.setting_test')
+data.setCell(6, 3, 1101);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickondeleterepo')
+data.setCell(7, 2, 'Test.setting_test')
+data.setCell(7, 3, 1099);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'clickonnewissuebtn')
+data.setCell(8, 2, 'Test.newissue_test')
+data.setCell(8, 3, 1022);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'filltitlebox')
+data.setCell(9, 2, 'Test.newissue_test')
+data.setCell(9, 3, 1022);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'fillissuebox')
+data.setCell(10, 2, 'Test.newissue_test')
+data.setCell(10, 3, 1016);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'fillrepository_vrfy')
+data.setCell(11, 2, 'Test.repository_test')
+data.setCell(11, 3, 72);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'clickonissue')
+data.setCell(12, 2, 'Test.repository_test')
+data.setCell(12, 3, 43);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickonsubmit_btn')
+data.setCell(13, 2, 'Test.newissue_test')
+data.setCell(13, 3, 12);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'fillissuetitle')
+data.setCell(14, 2, 'Test.REIssue_test')
+data.setCell(14, 3, 12);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickonreissuebtn')
+data.setCell(15, 2, 'Test.REIssue_test')
+data.setCell(15, 3, 12);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'clickonnewissuebtn')
+data.setCell(16, 2, 'Test.REIssue_test')
+data.setCell(16, 3, 9);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'fillcommentbox')
+data.setCell(17, 2, 'Test.REIssue_test')
+data.setCell(17, 3, 8);
+window.suiteTableData['geethub']= { tableData: data, tableDiv: 'times-div-geethub'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-geethub">
+              </div> <!-- times-div-geethub -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-geethub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for geethub</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-geethub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test.newissue_test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">filltitlebox_vrfy</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-geethub" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.geethublogin_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">GetLaunchUrl</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickonSign</span>
+                <span class="method-start">5734 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.geethubtestbox_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">filldetails</span>
+                <span class="method-start">7805 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.newbtn_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickonnewbtn</span>
+                <span class="method-start">10612 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.repository_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fillrepository_vrfy</span>
+                <span class="method-start">13647 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickoncreaterepo</span>
+                <span class="method-start">13720 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickonissue</span>
+                <span class="method-start">19196 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.newissue_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickonnewissuebtn</span>
+                <span class="method-start">19245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">filltitlebox</span>
+                <span class="method-start">20268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillissuebox</span>
+                <span class="method-start">21291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickonsubmit_btn</span>
+                <span class="method-start">22308 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.REIssue_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickonreissuebtn</span>
+                <span class="method-start">22326 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillissuetitle</span>
+                <span class="method-start">22340 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fillcommentbox</span>
+                <span class="method-start">22353 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickonnewissuebtn</span>
+                <span class="method-start">22362 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.setting_test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">clickonsetting</span>
+                <span class="method-start">22378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickondeleterepo</span>
+                <span class="method-start">24432 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickondeletetext</span>
+                <span class="method-start">25532 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
